@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <a href="index.html" class="logo">
+              <img src="/images/logo.svg" alt="" class="logo__img" />
+            </a>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__list-item">
+                  <li class="menu__list-item">
+                    <a href="index.html" class="menu__list-link">HOME</a>
+                  </li>
+                  <a href="new-cars.html" class="menu__list-link menu__list-link--active">NEW CARS</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="pre-owned-cars.html" class="menu__list-link">PRE-OWNED-CARS</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="#" class="menu__list-link">LEASE VS BUY</a>
+                </li>
+                <li class="menu__list-item">
+                  <a href="contacts.html" class="menu__list-link">CONTACT US</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+
+      <section class="choose">
+        <div class="container">
+          <h2 class="section-title">
+            Choose your car
+          </h2>
+          <div class="tabs">
+            <div class="tabs__btn">
+              <button class="tabs__btn-item 
+              tabs__btn-item--active" data-button="content-1">Car and Minivan</button>
+              <button class="tabs__btn-item" data-button="content-2">Trucks</button>
+              <button class="tabs__btn-item" data-button="content-3">Crossovers & SUVs</button>
+              <button class="tabs__btn-item" data-button="content-4">Electrified</button>
+            </div>
+            <div class="tabs__content">
+             <div class="tabs__content-item tabs__content-item--active" id="content-1" >
+            <div class="card">
+              <img class="card__img" src="images/card-1.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">Seat Ibiza 2021</h4>
+              <p class="card__text">starting from $ 25900</h4>
+              <p class="card__price">$ 280/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/card-2.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">Kia Soul 2023</h4>
+              <p class="card__text">starting from $ 21215</h4>
+              <p class="card__price">$ 239/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/card-3.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title"> VW Polo 2022</h4>
+              <p class="card__text">starting from $ 27615</h4>
+              <p class="card__price">$ 259/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/card-4.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">Volkswagen GTI 2022</h4>
+              <p class="card__text">starting from $ 39830</h4>
+              <p class="card__price">$ 359/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/card-5.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">Subaru Legacy 2023</h4>
+              <p class="card__text">starting from $ 25415</h4>
+              <p class="card__price">$ 355/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/card-6.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">VW Taos 2023</h4>
+              <p class="card__text">starting from $ 26950</h4>
+              <p class="card__price">$ 279/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/card-7.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">Nissan Altima 2022</h4>
+              <p class="card__text">starting from $ 27190</h4>
+              <p class="card__price">$ 299/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/card-8.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">VW Passat 2022</h4>
+              <p class="card__text">starting from $ 36900</h4>
+              <p class="card__price">$ 423/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/card-9.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">VW Jetta 2022</h4>
+              <p class="card__text">starting from $ 31900</h4>
+              <p class="card__price">$ 390/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/card-10.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">Lexus LS 500 2022</h4>
+              <p class="card__text">starting from $ 59900</h4>
+              <p class="card__price">$ 620/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/card-11.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">Challenger 2022</h4>
+              <p class="card__text">starting from $ 48900</h4>
+              <p class="card__price">$ 590/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/card-12.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">Panamera 2022</h4>
+              <p class="card__text">starting from $ 65900</h4>
+              <p class="card__price">$ 670/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/card-13.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">BMW M5 2021</h4>
+              <p class="card__text">starting from $ 110900</h4>
+              <p class="card__price">$ 950/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/card-14.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">BMW M3 2021</h4>
+              <p class="card__text">starting from $ 102999</h4>
+              <p class="card__price">$ 899/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/card-15.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">BMW M2 2021</h4>
+              <p class="card__text">starting from $ 61900</h4>
+              <p class="card__price">$ 660/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/card-16.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">BMW M1 2021</h4>
+              <p class="card__text">starting from $ 47900</h4>
+              <p class="card__price">$ 520/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+
+             </div> 
+             <div class="tabs__content-item" id="content-2">
+              <div class="card">
+                <img class="card__img" src="images/card-truck-1.jpg" alt="">
+                <div class="card__content">
+                <h4 class="card__title">DAF XF 480 FT 2018</h4>
+                <p class="card__text">starting from $ 95830</h4>
+                <p class="card__price">$ 980/mo</h4>
+                  <div class="card__like">
+                    <button name="like__btn" class="like__btn">
+                      <img src="images/like.svg" alt="">
+                    </button>
+                  </div>
+                </div>
+                  <a href="#" class="card__link">let's drive</a>
+              </div>
+              <div class="card">
+                <img class="card__img" src="images/card-truck-2.jpg" alt="">
+                <div class="card__content">
+                <h4 class="card__title">Volvo FH 500 2015</h4>
+                <p class="card__text">starting from $ 79830</h4>
+                <p class="card__price">$ 780/mo</h4>
+                  <div class="card__like">
+                    <button name="like__btn" class="like__btn">
+                      <img src="images/like.svg" alt="">
+                    </button>
+                  </div>
+                </div>
+                  <a href="#" class="card__link">let's drive</a>
+              </div>
+              <div class="card">
+                <img class="card__img" src="images/card-truck-3.jpg" alt="">
+                <div class="card__content">
+                <h4 class="card__title">M-Benz Actros 2013</h4>
+                <p class="card__text">starting from $ 71830</h4>
+                <p class="card__price">$ 699/mo</h4>
+                  <div class="card__like">
+                    <button name="like__btn" class="like__btn">
+                      <img src="images/like.svg" alt="">
+                    </button>
+                  </div>
+                </div>
+                  <a href="#" class="card__link">let's drive</a>
+              </div>
+              <div class="card">
+                <img class="card__img" src="images/card-truck-4.jpg" alt="">
+                <div class="card__content">
+                <h4 class="card__title">MAN TGX 2021 </h4>
+                <p class="card__text">starting from $ 101830</h4>
+                <p class="card__price">$ 1150*/mo</h4>
+                  <div class="card__like">
+                    <button name="like__btn" class="like__btn">
+                      <img src="images/like.svg" alt="">
+                    </button>
+                  </div>
+                </div>
+                  <a href="#" class="card__link">let's drive</a>
+              </div>
+             </div> 
+             <div class="tabs__content-item" id="content-3">
+              <div class="card">
+                <img class="card__img" src="images/suv-1.jpg" alt="">
+                <div class="card__content">
+                <h4 class="card__title">Audi Q7 2021</h4>
+                <p class="card__text">starting from $ 107615</h4>
+                <p class="card__price">$ 1020/mo</h4>
+                  <div class="card__like">
+                    <button name="like__btn" class="like__btn">
+                      <img src="images/like.svg" alt="">
+                    </button>
+                  </div>
+                </div>
+                  <a href="#" class="card__link">let's drive</a>
+              </div>
+              <div class="card">
+                <img class="card__img" src="images/suv-2.jpg" alt="">
+                <div class="card__content">
+                <h4 class="card__title">BMW X3 2021</h4>
+                <p class="card__text">starting from $ 96615</h4>
+                <p class="card__price">$ 920/mo</h4>
+                  <div class="card__like">
+                    <button name="like__btn" class="like__btn">
+                      <img src="images/like.svg" alt="">
+                    </button>
+                  </div>
+                </div>
+                  <a href="#" class="card__link">let's drive</a>
+              </div>
+              <div class="card">
+                <img class="card__img" src="images/suv-3.jpg" alt="">
+                <div class="card__content">
+                <h4 class="card__title"> BMW X5 2022</h4>
+                <p class="card__text">starting from $ 117615</h4>
+                <p class="card__price">$ 1170/mo</h4>
+                  <div class="card__like">
+                    <button name="like__btn" class="like__btn">
+                      <img src="images/like.svg" alt="">
+                    </button>
+                  </div>
+                </div>
+                  <a href="#" class="card__link">let's drive</a>
+              </div>
+              <div class="card">
+                <img class="card__img" src="images/suv-4.jpg" alt="">
+                <div class="card__content">
+                <h4 class="card__title"> BMW X7 2022</h4>
+                <p class="card__text">starting from $ 129346</h4>
+                <p class="card__price">$ 1259/mo</h4>
+                  <div class="card__like">
+                    <button name="like__btn" class="like__btn">
+                      <img src="images/like.svg" alt="">
+                    </button>
+                  </div>
+                </div>
+                  <a href="#" class="card__link">let's drive</a>
+              </div>
+             </div> 
+             <div class="tabs__content-item" id="content-4">
+            <div class="card">
+              <img class="card__img" src="images/e-card-1.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">Tesla Model 3</h4>
+              <p class="card__text">starting from $ 110137</h4>
+              <p class="card__price">$ 989/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/e-card-2.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">BMW i3</h4>
+              <p class="card__text">starting from $ 42657</h4>
+              <p class="card__price">$ 475/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/e-card-3.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">Nissan Leaf 2018</h4>
+              <p class="card__text">starting from $ 38215</h4>
+              <p class="card__price">$ 379/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/e-card-4.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">Renault ZOE</h4>
+              <p class="card__text">starting from $ 41415</h4>
+              <p class="card__price">$ 439/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/e-card-5.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">Volkswagen e-Golf</h4>
+              <p class="card__text">starting from $ 51678</h4>
+              <p class="card__price">$ 589/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/e-card-6.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">Chevrolet Bolt</h4>
+              <p class="card__text">starting from $ 42219</h4>
+              <p class="card__price">$ 539/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/e-card-7.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">Mercedes EQC</h4>
+              <p class="card__text">starting from $ 127415</h4>
+              <p class="card__price">$ 1311/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            <div class="card">
+              <img class="card__img" src="images/e-card-8.jpg" alt="">
+              <div class="card__content">
+              <h4 class="card__title">Audi e-tron</h4>
+              <p class="card__text">starting from $ 161468</h4>
+              <p class="card__price">$ 1754/mo</h4>
+                <div class="card__like">
+                  <button name="like__btn" class="like__btn">
+                    <img src="images/like.svg" alt="">
+                  </button>
+                </div>
+              </div>
+                <a href="#" class="card__link">let's drive</a>
+            </div>
+            
+             </div> 
+            </div>
+          </div>
+          <a href="#" class="showmore-link">SHOW MORE</a>
+        </div>
+      </section>
+
+        <section class="blog">
+          <div class="container">
+            <div class="blog__items">
+              <div class="blog__item">
+                <img class="blog__item-img" src="images/blog-1.jpg" alt="">
+                <h4 class="blog__item-title">What will the new L200 be like?</h4>
+                <a href="#" class="blog__item-link">more</a>
+              </div>
+              <div class="blog__item">
+                <img class="blog__item-img" src="images/blog-2.jpg" alt="">
+                <h4 class="blog__item-title">What is this, the new Enyaq?</h4>
+                <a href="#" class="blog__item-link">more</a>
+              </div>
+              <div class="blog__item">
+                <img class="blog__item-img" src="images/blog-3.jpg" alt="">
+                <h4 class="blog__item-title">Mercedes-Benz EQS SUV</h4>
+                <a href="#" class="blog__item-link">more</a>
+              </div>
+              <div class="blog__item">
+                <img class="blog__item-img" src="images/blog-4.jpg" alt="">
+                <h4 class="blog__item-title">Opel Insignia a cross-van?</h4>
+                <a href="#" class="blog__item-link">more</a>
+              </div>
+            </div>
+            <a href="#" class="showmore-link">SHOW MORE</a>
+          </div>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <nav class="footer__menu">
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <p class="footer__menu-title">Products</a>
+                  
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">New</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Used</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Sell your car</a>
+              </li>
+            </ul>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <p class="footer__menu-title">Resources</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Blog</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">FAQ</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Contact us</a>
+              </li>
+            </ul>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <p class="footer__menu-title">Work With Us</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Dealers</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Partners</a>
+              </li>
+            </ul>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <p class="footer__menu-title">About</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">About us</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Team</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="#" class="footer__menu-link">Careers</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="app">
+            <li class="app__item">
+              <a href="#" class="app__item-link">
+                <img class="app__item-img" src="images/appstore.svg" alt="">
+              </a>
+            </li>
+            <li class="app__item">
+              <a href="#" class="app__item-link">
+                <img class="app__item-img" src="images/googleplay.svg" alt="">
+              </a>
+            </li>
+          </ul>
+          <div class="footer__copy">
+            <p class="footer__copy-text">
+              For questions about us please call 1-888-878-333.
+Certified Dealers are contractually obligated to meet certain customer service requirements and complete the Dealer Certification Program.
+
+            </p>
+            <p class="footer__copy-text">
+              We does not broker, sell, or lease motor vehicles. Unless otherwise noted, all vehicles shown on this website are offered for sale by licensed motor vehicle dealers. All vehicles are subject to prior sale. By accessing this website, you agree to the Terms of Service and Privacy Policy.
+            </p>
+          </div>
+          <nav class="copy__nav">
+            <ul class="copy__nav-list">
+              <li class="copy__nav-item"><a href="#" class="copy__nav-link">Terms of Service</a></li>
+              <li class="copy__nav-item"><a href="#" class="copy__nav-link">Privacy Policy</a></li>
+              <li class="copy__nav-item"><a href="#" class="copy__nav-link">Do Not Sell My Personal Information</a></li>
+              
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
